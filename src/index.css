@@ -5,9 +5,387 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F4F7F8;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.phone {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1008px;
+  top: 37px;
+}
+
+.callCenter {
+  position: absolute;
+  width: 86px;
+  height: 19px;
+  left: 1040px;
+  top: 39px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142D;
+}
+
+.truckDelivery {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1158px;
+  top: 37px;
+}
+
+.shippingreturn {
+  position: absolute;
+  width: 146px;
+  height: 19px;
+  left: 1190px;
+  top: 39px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142D;
+}
+
+.dealerz {
+  position: absolute;
+  width: 152px;
+  height: 47px;
+  left: 94px;
+  top: 25px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #F86338;
+}
+
+.navBar {
+  position: absolute;
+  width: 1440px;
+  height: 93px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+.categories {
+  position: absolute;
+  width: 265px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+  --bs-link-hover-color: #F86338;
+}
+
+.shop {
+  position: absolute;
+  width: 39px;
+  height: 19px;
+  left: 94px;
+  top: 140px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142D;
+}
+
+.promo {
+  position: absolute;
+  width: 50px;
+  height: 19px;
+  left: 165px;
+  top: 140px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142D;
+}
+
+.about {
+  position: absolute;
+  width: 47px;
+  height: 19px;
+  left: 247px;
+  top: 140px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142D;
+}
+
+.blog {
+  position: absolute;
+  width: 33px;
+  height: 19px;
+  left: 326px;
+  top: 140px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142D;
+}
+
+.searchbar {
+  position: absolute;
+  width: 573px;
+  height: 56px;
+  left: 451px;
+  top: 121px;
+}
+
+.menu {
+  position: absolute;
+  width: 248px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+}
+
+.heart {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 1088px;
+  top: 133px;
+}
+
+.shoppingCart {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 1160px;
+  top: 133px;
+}
+
+.profileIcon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 1232px;
+  top: 133px;
+}
+
+.notificationBell {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 1304px;
+  top: 133px;
+}
+
+.hero {
+  position: absolute;
+  width: 1440px;
+  height: 512px;
+  left: 0px;
+  top: 205px;
+}
+
+.heroHead {
+  position: absolute;
+  width: 593px;
+  height: 154px;
+  left: 728px;
+  top: 340px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: 0.003em;
+  color: #11142D;
+}
+
+.heroDesc {
+  position: absolute;
+  width: 612px;
+  height: 40px;
+  left: 728px;
+  top: 526px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.005em;
+  color: #515151;
+}
+
+a {
+  text-decoration: none;
+}
+
+.searchBar2 {
+  position: absolute;
+  width: 290px;
+  height: 56px;
+  left: 100px;
+  top: 838px;
+}
+
+.sort {
+  position: absolute;
+  width: 290px;
+  height: 36px;
+  left: 100px;
+  top: 938px;
+}
+
+.filterDesc {
+  position: absolute;
+  width: 290px;
+  height: 56px;
+  left: 100px;
+  top: 988px;
+}
+
+.minRange {
+  position: absolute;
+  width: 140px;
+  height: 26px;
+  left: 100px;
+  top: 1026px;
+}
+
+.maxRange {
+  position: absolute;
+  width: 140px;
+  height: 26px;
+  left: 250px;
+  top: 1026px;
+}
+
+.fontStyle {
+  font-family: 'DM Sans';
+}
+
+.refine {
+  position: absolute;
+  width: 70px;
+  left: 205px;
+  top: 1096px;
+}
+
+.card1 {
+  left: 400px;
+  top: 838px;
+  float: left;
+  margin-bottom: 80px;
+  margin-right: 80px;
+  background-color: #fff;
+  position: -webkit-sticky;
+}
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 476px;
+  left: 0px;
+  top: 6241px;
+  background: #FFFFFF;
+}
+
+.social {
+  position: absolute;
+  width: 208px;
+  height: 40px;
+  left: 1126px;
+  padding-top: 88px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  left: 104px;
+  top: 58px;
+  background: #E2E2EA;
+}
+
+.bottomHeading {
+  position: absolute;
+  width: 249px;
+  height: 77px;
+  left: 520px;
+  top: 69px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: 0.003em;
+  color: #F86338;
+}
+
+.policy {
+  position: absolute;
+  width: 132px;
+  height: 19px;
+  left: 520px;
+  top: 178px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142D;
+}
+
+.terms {
+  position: absolute;
+  width: 167px;
+  height: 19px;
+  left: 520px;
+  top: 221px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142D;
+}
+
+.rights {
+
+  position: absolute;
+  width: 392px;
+  height: 19px;
+  left: 523px;
+  top: 399px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142D;
 }
